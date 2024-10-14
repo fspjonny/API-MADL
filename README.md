@@ -36,11 +36,11 @@ Para executar este projeto, você precisará ter instalado:
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/devfabiopedro/fastapi_zero_madr_projeto_final.git
+git clone https://github.com/fspjonny/API-MADL.git
 ```
 ```bash
 Vá para o diretório da aplicação:
-cd fastapi_zero_madr_projeto_final
+cd API-MADL
 ```
 
 2. Crie um ambiente virtual com o Poetry:
