@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "madl"
 version = "0.1.0"
-description = "MADL"
+description = "MADL é um projeto final do curso de FastAPI"
 authors = ["fspjonny <fabiosilvapedro@yahoo.com.br>"]
 readme = "README.md"
 
@@ -54,8 +54,8 @@ addopts = '-p no:warnings'
 [tool.taskipy.tasks]
 lint = {cmd='ruff check . && ruff check . --diff', help='- Faz um linter no código.'}
 format = {cmd='ruff check . --fix && ruff format .', help='- Formata o código corretamente.'}
-run = {cmd='fastapi dev madl/app.py', help='- Executa a aplicação.'}
-test = {cmd='pytest -s -x --cov=madl -vv', help='- Executas os testes unitários.'}
+run = {cmd='fastapi dev madr/app.py', help='- Executa a aplicação.'}
+test = {cmd='pytest -s -x --cov=madr -vv', help='- Executas os testes unitários.'}
 post-test = {cmd='coverage html && python misc/coverage-report.py', help='- Exibe relatório de cobertura.'}
 
 # Usar em caso de execução dentro de container Docker
